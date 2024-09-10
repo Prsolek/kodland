@@ -11,7 +11,7 @@ slowa = {
     'REL': 'określenie czegoś prawdziwego lub prawdziwego też wobec siebie',
     'ŚPIULKOLOT': 'stare określenie łóżka używane w 21w.',
     'LIDLONKA': 'osoba która lubi Lidla i Biedronkę'
-    'BRUH': 'bywa synonimem bratku, częściej jednak ma znaczenie osobne – jako zdiwienie+xd+westchnienie, westchnienie, wyrażające, frustrację i niezadowolenie, czasem zdumienie, odpowiednik o, bracie!'
+    'BRUH': 'jako westchnienie wyrażające frustrację i niezadowolenie, czasem zdumienie, odpowiednik o, bracie'
     'XD': 'śmieszne'
     'Xd': 'ha ha... takie sobie'
     'xd': 'EEeeeee... słabe'
@@ -25,6 +25,7 @@ while True:  # Pętla nieskończona
         print(slowa[slowo])
     else:
         print('Nie znam tego słowa.')
+        print(https://www.youtube.com/watch?v=xm3YgoEiEDc)
 
     for i in range(4, 0, -1):
         print(i)
