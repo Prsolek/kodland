@@ -1,10 +1,29 @@
+import time
+
 slowa = {
-    'LOL' : 'odpowiedź na coś zabawnego',
-     'CRINGE' : 'coś dziwnego lub wstydliwego',
-     'ROFL' : 'odpowiedź na żart',
-     'SHEESH' : 'lekka dezaprobata',
-     'CREEPY' : 'straszny, złowieszczy',
-     'AGGRO' : 'stać się agresywnym/zły',
+    'LOL': 'odpowiedź na coś zabawnego',
+    'CRINGE': 'coś dziwnego lub wstydliwego',
+    'ROFL': 'odpowiedź na żart',
+    'SHEESH': 'lekka dezaprobata',
+    'CREEPY': 'straszny, złowieszczy',
+    'AGGRO': 'stać się agresywnym/zły',
+    'SKIBIDI': '1. co jest dziwne jak skibidi toilet. 2. ala zabawne',
+    'REL': 'określenie czegoś prawdziwego lub prawdziwego też wobec siebie',
+    'ŚPIULKOLOT': 'stare określenie łóżka używane w 21w.',
+    'LIDLONKA': 'osoba która lubi Lidla i Biedronkę'
 }
-slowo = input('podaj slowo')
-print(slowa[slowo])
+
+while True:  # Pętla nieskończona
+    slowo = input('podaj słowo z caps lock: ')
+
+    if slowo in slowa:
+        print(slowa[slowo])
+    else:
+        print('Nie znam tego słowa.')
+
+    for i in range(4, 0, -1):
+        print(i)
+        time.sleep(0.5)
+
+    # Po odliczaniu program pyta o nowe słowo
+    slowo = input('podaj kolejne słowo z caps lock: ') 
