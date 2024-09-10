@@ -12,10 +12,14 @@ slowa = {
     'ŚPIULKOLOT': 'stare określenie łóżka używane w 21w.',
     'LIDLONKA': 'osoba która lubi Lidla i Biedronkę'
     'BRUH': 'bywa synonimem bratku, częściej jednak ma znaczenie osobne – jako zdiwienie+xd+westchnienie, westchnienie, wyrażające, frustrację i niezadowolenie, czasem zdumienie, odpowiednik o, bracie!'
+    'XD': 'śmieszne'
+    'Xd': 'ha ha... takie sobie'
+    'xd': 'EEeeeee... słabe'
+    'xD': 'trochę to mnie rozbawiło'
 }
 
 while True:  # Pętla nieskończona
-    slowo = input('podaj słowo z caps lock: ')
+    slowo = input('podaj słowo z caps lock oprócz rodzajów XD: ')
 
     if slowo in slowa:
         print(slowa[slowo])
@@ -27,4 +31,4 @@ while True:  # Pętla nieskończona
         time.sleep(0.5)
 
     # Po odliczaniu program pyta o nowe słowo
-    slowo = input('podaj kolejne słowo z caps lock: ')
+    slowo = input('podaj kolejne słowo z caps lock oprócz rodzajów XD: ')
